@@ -24,8 +24,8 @@ jobs:
     # 替换 unicom.m3u 中的 rtp:// 为 http://192.168.100.1/rtp/
     - name: Replace rtp
       run: |
-        sed 's/rtp:\/\//http:\/\/192.168.100.1\/rtp\//g' unicom.m3u > zn.m3u
-        sed 's/rtp:\/\//http:\/\/192.168.10.1\/rtp\//g' unicom.m3u > hx.m3u
+        sed 's/rtp:\/\//http:\/\/192.168.100.1:4022\/rtp\//g' unicom.m3u > zn.m3u
+        sed 's/rtp:\/\//http:\/\/192.168.10.1:4022\/rtp\//g' unicom.m3u > hx.m3u
 
     # 提交更改（如果有变动的话）
     - name: Commit and push changes
