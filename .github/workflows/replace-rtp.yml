@@ -1,0 +1,37 @@
+name: Replace RTP URLs and Commit
+
+on:
+  push:
+    branches:
+      - main  # 你可以指定触发的分支
+  pull_request:
+    branches:
+      - main  # 或者你希望在 PR 时触发
+
+jobs:
+  replace-rtp-url:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # 检出代码
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # 安装必要工具，如 sed 或其它工具
+    - name: Install necessary tools
+      run: sudo apt-get install -y sed
+
+    # 替换 unicom.m3u 中的 rtp:// 为 http://192.168.100.1/rtp/
+    - name: Replace rtp
+      run: |
+        sed 's/rtp:\/\//http:\/\/192.168.100.1\/rtp\//g' unicom.m3u > zn.m3u
+        sed 's/rtp:\/\//http:\/\/192.168.10.1\/rtp\//g' unicom.m3u > hx.m3u
+
+    # 提交更改（如果有变动的话）
+    - name: Commit and push changes
+      run: |
+        git add zn.m3u
+        git add hx.m3u
+        git commit -m "Replace rtp in unicom.m3u"
+        git push origin main  # 根据需要修改推送的分支
+      continue-on-error: true  # 如果没有变动，跳过这个步骤
