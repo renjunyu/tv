@@ -30,6 +30,8 @@ jobs:
     # 提交更改（如果有变动的话）
     - name: Commit and push changes
       run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
         git add zn.m3u
         git add hx.m3u
         git commit -m "Replace rtp in unicom.m3u"
