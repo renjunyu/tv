@@ -8,11 +8,9 @@
 
 ## 播放器推荐
 
-- Android：[mytv-android/mytv-android](https://github.com/mytv-android/mytv-android/releases)（使用ijk内核，根据设备性能设置播放缓冲）
+- Android：[mytv-android/mytv-android](https://github.com/mytv-android/mytv-android/releases)（使用VLC播放器）
 
 - Android4.4：[IPTV Pro](https://github.com/chilinha/tv/tree/main/apks)
-
-- ios：[APTV](https://apps.apple.com/cn/app/aptv/id1630403500) （需要开启反交错）
 
 - Windows：[Potplayer](https://potplayer.daum.net/)
 
@@ -28,7 +26,7 @@ CCTV1、CCTV2、CCTV3、CCTV4、CCTV5、CCTV5+、CCTV6、CCTV7、CCTV8、CCTV9�
 
 ### 地方频道
 
-黑龙江卫视、广东卫视、甘肃卫视、海南卫视、浙江卫视、湖南卫视、湖北卫视、四川卫视、江西卫视、辽宁卫视、安徽卫视、深圳卫视、福建东南卫视、吉林卫视、上海东方卫视、北京卫视、河北卫视、江苏卫视、河南卫视、重庆卫视、贵州卫视、青海卫视、三沙卫视、广西卫视、云南卫视、内蒙古卫视、新疆卫视、陕西卫视、山西卫视、西藏卫视、宁夏卫视、兵团卫视、卡酷少儿、哈哈炫动、金鹰卡通、北京纪实科教、金鹰纪实、山东教育卫视、中国天气、中国交通
+广东卫视、甘肃卫视、海南卫视、内蒙古卫视、浙江卫视、湖南卫视、新疆卫视、湖北卫视、四川卫视、江西卫视、辽宁卫视、安徽卫视、深圳卫视、吉林卫视、上海东方卫视、山东卫视、北京卫视、东南卫视、河北卫视、西藏卫视、江苏卫视、河南卫视、青海卫视、宁夏卫视、兵团卫视、重庆卫视、云南卫视、贵州卫视、黑龙江卫视、三沙卫视、广西卫视、陕西卫视、山西卫视、卡酷少儿、金鹰卡通、哈哈炫动、金鹰纪实、北京纪实科教、山东教育卫视、中国天气、中国交通
 
 ### 付费频道
 
@@ -49,6 +47,8 @@ CCTV4K、北京卫视4K、广东卫视4K、深圳卫视4k
 - epg节目单来源：http://e.erw.cc/
 
 ## Screenshots
+
+![](https://github.com/user-attachments/assets/1fe543df-17e4-4c0a-ac07-d130e9958e4b)
 
 ![](https://github.com/user-attachments/assets/f5fa7ff5-c382-4751-8a0f-d88f16b6fffd)
 
