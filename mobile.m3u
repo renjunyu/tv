@@ -229,8 +229,6 @@ rtp://225.2.1.183:5000
 rtp://225.2.1.205:5000
 #EXTINF:-1 tvg-name="环球奇观" tvg-logo="https://gitee.com/chilinha/mytv/raw/master/logos/hqqg.png" group-title="付费频道",环球奇观 SD
 rtp://225.2.1.197:5000
-#EXTINF:-1 tvg-name="先锋乒羽" tvg-logo="https://gitee.com/chilinha/mytv/raw/master/logos/xfpy.png" group-title="付费频道",先锋乒羽 SD
-rtp://225.2.1.219:5000
 #EXTINF:-1 tvg-name="生态环境" tvg-logo="https://gitee.com/chilinha/mytv/raw/master/logos/sthj.png" group-title="付费频道",生态环境 SD
 rtp://239.0.2.201:5000
 #EXTINF:-1 tvg-name="优优宝贝" tvg-logo="https://gitee.com/chilinha/mytv/raw/master/logos/yybb.png" group-title="付费频道",优优宝贝 SD
